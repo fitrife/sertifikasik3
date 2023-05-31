@@ -1,0 +1,444 @@
+/* Responsive CSS */
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+    --bs-gutter: 30px;
+  }
+  .banner-section {
+    padding-top: 12rem;
+    padding-bottom: 14rem;
+  }
+  .banner-section h2 {
+    width: 350px;
+  }
+  .banner-section button {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .gallery-section .video {
+    margin-top: 38px;
+  }
+  .program-section img {
+    width: 500px;
+    max-width: 100%;
+  }
+  .program-section .change-position {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 12px 0;
+  }
+  .banner-section {
+    padding-top: 11rem;
+    padding-bottom: 13rem;
+  }
+  .banner-text {
+    margin-right: -10%;
+  }
+  .banner-section h2 {
+    width: 350px;
+  }
+  .banner-section button {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .banner-section .button-apply a {
+    width: 290px;
+  }
+  .banner-section .button-apply p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .banner-text h1 {
+    font-size: 35px;
+  }
+  .register-section {
+    justify-content: left;
+  }
+  .register-section .steps-heading-h3 {
+    text-align: left;
+  }
+  .register-section .steps-p {
+    text-align: left;
+  }
+  .register-section .col-5 {
+    margin-left: 5px;
+  }
+  .program-section img {
+    width: 400px;
+    margin-top: 14%;
+    max-width: 100%;
+  }
+  .program-section .change-position {
+    margin-left: 50px;
+  }
+  .gallery-section .video {
+    margin-top: 28px;
+  }
+  .page-404 .bg-404 img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
+  .main-wrapper {
+    max-width: 767px;
+  }
+  .container {
+    --bs-gutter-x: 15px;
+  }
+  .box {
+    padding: 20px 15px;
+  }
+  .header-logo {
+    width: 200px;
+  }
+  .banner-section {
+    padding-top: 11rem;
+    padding-bottom: 13rem;
+  }
+  .banner-section h2 {
+    width: 350px;
+  }
+  .banner-section .banner-text {
+    margin-left: 10px;
+  }
+  .banner-section button {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .banner-section .button-apply a {
+    width: 270px;
+  }
+  .banner-section .button-apply p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .banner-section .banner-text h1 {
+    font-size: 2.2rem;
+    width: 300px;
+  }
+  .banner-section .banner-text p {
+    width: 350px;
+  }
+  .section-title .title,
+  h3,
+  .banner-text h2 {
+    font-size: 18px;
+  }
+  .form-title,
+  .section-title .sub-title {
+    font-size: 1.7rem;
+  }
+  .section-title .title {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
+  .relation-section {
+    margin: auto;
+  }
+  .relation-item {
+    display: flex;
+    justify-content: center;
+  }
+  .relation-section img {
+    width: 100px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    max-width: 100%;
+  }
+  .register-section {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .register-section .section-title {
+    margin-bottom: -25px;
+  }
+  .register-section-row img {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 100%;
+  }
+  .register-section-row {
+    margin-bottom: 0px;
+  }
+  .register-section .steps-heading-h3 {
+    text-align: center;
+  }
+  .register-section .steps-p {
+    text-align: center;
+  }
+  .register-section .change-position {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .register-section .change-position img {
+    margin-left: 130px;
+    max-width: 100%;
+  }
+  .schedule-section img {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+  }
+  .testimonial-section {
+    text-align: center;
+  }
+  .payment-section i {
+    font-size: 70px;
+  }
+  .payment-flow-section {
+    justify-content: center;
+  }
+  .payment-flow-section .steps-heading-h3 {
+    text-align: center;
+  }
+  .payment-flow-section .steps-p {
+    text-align: center;
+  }
+  .payment-flow-section .change-position {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .payment-flow-section .change-position img {
+    margin-left: 130px;
+    max-width: 100%;
+  }
+  .payment-flow-section .col-5 {
+    margin-left: 5px;
+  }
+  .location-section .maps {
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+  }
+  .support-section {
+    margin: auto;
+    margin-top: -30px;
+  }
+  .support-item {
+    display: flex;
+    justify-content: center;
+  }
+  .support-section img {
+    width: 120px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    max-width: 100%;
+  }
+  .program-section img {
+    width: 350px;
+    margin-bottom: -50px;
+    margin-top: -30px;
+    max-width: 100%;
+  }
+  .program-section .change-position {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .gallery-section .video {
+    margin-top: 0px;
+  }
+  .page-404 .bg-404 img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 512px) {
+  body {
+    overflow-x: hidden;
+  }
+  .section-title .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .header-logo {
+    width: 155px;
+    margin-top: -10px;
+    margin-bottom: auto;
+    max-width: 100%;
+  }
+  .header button {
+    font-size: 12px;
+    height: 40px;
+  }
+  .banner-section {
+    background-position: 80%;
+    padding-top: 10rem;
+    padding-bottom: 16rem;
+  }
+  .banner-section .button-apply a {
+    width: 185px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .banner-section .banner-text {
+    margin-left: 10px;
+  }
+  .banner-section .banner-text h1 {
+    font-size: 1.7rem;
+    width: 250px;
+  }
+  .banner-section h2 {
+    width: 240px;
+  }
+  .relation-section img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 100%;
+  }
+  .relation-item {
+    margin-top: -12%;
+    margin-bottom: -12%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .reason-section .card {
+    margin: 0.5rem;
+  }
+  .reason-section i {
+    font-size: 68px;
+  }
+  .facility-section {
+    font-size: 14px;
+    color: var(--black-90);
+    display: flex;
+    align-content: center;
+  }
+  .facility-section i {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 0;
+  }
+  .facility-section .text-start {
+    margin: auto;
+  }
+  .facility-section .card {
+    background-color: transparent;
+    border: 0px;
+  }
+  .register-section .change-position {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .register-section-row img {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 100%;
+  }
+  .register-section-row {
+    margin-bottom: 0px;
+  }
+  .register-section img {
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    max-width: 100%;
+  }
+  .register-section .change-position img {
+    margin-left: 70px;
+    max-width: 100%;
+  }
+  .testimonial-section {
+    text-align: center;
+  }
+  .gallery-section .section-title {
+    margin-bottom: -30px;
+  }
+  .apply-section .apply-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .location-section .maps {
+    margin-top: 20px;
+  }
+  .location-section iframe {
+    margin: auto;
+    width: 315px;
+    max-width: 100%;
+  }
+  .footer-item {
+    text-align: center;
+  }
+  .footer-item img {
+    display: block;
+    margin: 0 60% 0 60%;
+  }
+  .modal-dialog {
+    margin: 8px 15px;
+  }
+  .about-section img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .program-section .change-position {
+    margin: 0px;
+  }
+  .program-section img {
+    width: 350px;
+    margin: auto;
+    margin-bottom: -50px;
+    max-width: 100%;
+  }
+  .page-404 h3 {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+  .page-404 .bg-404 img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    max-width: 100%;
+  }
+  .header-logo {
+    width: 135px;
+    margin-top: -10px;
+    margin-bottom: auto;
+    max-width: 100%;
+  }
+  .header button {
+    font-size: 12px;
+    height: 35px;
+  }
+  .banner-section .banner-text h1 {
+    font-size: 1.7rem;
+    width: 200px;
+  }
+  .banner-section h2 {
+    width: 220px;
+  }
+  .page-404 .bg-404 img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+}

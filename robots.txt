@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sertifikasik3.intancahayamandiri.com/sitemap.xml
